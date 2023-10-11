@@ -1,0 +1,14 @@
+*{
+    direction: rtl;
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+.navbar-nav .nav-item {
+    border-right: 1px solid white;
+}
+/* Remove the border from the last item to avoid a border after the last item */
+.navbar-nav .nav-item:last-child {
+    border-right: none;
+}
+.navbar-nav .nav-item {
+    margin-right: 10px; /* Adjust this value as needed */
+}
